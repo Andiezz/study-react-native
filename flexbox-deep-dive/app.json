@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "deep-dive-starter",
-    "slug": "deep-dive-starter",
+    "name": "flexbox-deep-dive",
+    "slug": "flexbox-deep-dive",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
