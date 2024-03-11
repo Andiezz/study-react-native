@@ -7,7 +7,7 @@ import { Alert } from 'react-native';
 import { AuthContext } from '../store/auth-context';
 
 function SignupScreen() {
-  const [isAuthenticating, setIsAuthenticating] = useState();
+  const [isAuthenticating, setIsAuthenticating] = useState(false);
 
   const authCtx = useContext(AuthContext);
 
