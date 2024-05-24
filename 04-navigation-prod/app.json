@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "navigation",
+    "name": "My Recipe App",
     "slug": "navigation",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,16 +16,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.andiezz.navigation"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.andiezz.navigation"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2f1410e6-62ce-474b-b94c-f7ef06044379"
+      }
+    },
+    "owner": "andiezz"
   }
 }
